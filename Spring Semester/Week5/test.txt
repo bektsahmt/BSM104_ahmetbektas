@@ -1,0 +1,12 @@
+book
+pencil
+Bartin
+University
+book
+desk
+Chair
+Computer
+MOUSE
+PENCIL
+deSK
+chair

@@ -12,11 +12,12 @@ public class SelectionSort {
 	}
 	
 	public static void sort(int array[]) {
-		for (int index = 0; index < array.length; index++) {
+		for (int index = 0; index < array.length-1; index++) {
 			int min_index=index;
 			for (int j = index+1 ; j < array.length; j++) {
-				min_index=j;
-				
+				if(index[j] < index [min_index]) {
+					min_index=j;
+				}
 			}
 			int temp = array[min_index];
 			array[min_index]=array[index];
